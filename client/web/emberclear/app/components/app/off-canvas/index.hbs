@@ -1,18 +1,18 @@
-<KeyboardPress @key='ctrl+Space' @onDown={{this.sidebar.toggle}} />
+<MobileMenuWrapper @openDetectonWidth={{30}} as |mmw|>
+  <KeyboardPress @key='ctrl+Space' @onDown={{this.sidebar.toggle}} />
 
-{{#if this.currentUser.isLoggedIn}}
-  <App::Sidebar
-    class='sidebar-wrapper'
-    id='sidebar'
-  />
-{{/if}}
+  {{#if this.currentUser.isLoggedIn}}
+    <mmw.MobileMenu as |mm|>
 
+      <App::Sidebar
+        class='sidebar-wrapper'
+        id='sidebar'
+      />
 
-<main
-  id='scrollContainer'
-  data-scroll-container
-  {{did-insert this.onInsert}}
-  {{did-update this.onInsert this.currentUser.isLoggedIn}}
->
-  {{yield}}
-</main>
+    </mmw.MobileMenu>
+  {{/if}}
+
+  <mmw.Content>
+    {{yield}}
+  </mmw.Content>
+</MobileMenuWrapper>
