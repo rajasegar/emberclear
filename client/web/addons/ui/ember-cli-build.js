@@ -11,7 +11,7 @@ module.exports = function (defaults) {
   let app = new EmberAddon(defaults, {
     autoImport: {
       alias: {
-        '@shoelace-style/shoelace': `@shoelace-style/shoelace/dist/collection/index.js`,
+        // '@shoelace-style/shoelace': `@shoelace-style/shoelace/dist/collection/index.js`,
       },
     },
   });
