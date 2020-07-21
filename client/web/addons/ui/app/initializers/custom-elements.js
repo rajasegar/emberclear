@@ -1,5 +1,4 @@
-import { Button } from '@shoelace-style/shoelace/dist/collection/components/button/button';
-import { Switch } from '@shoelace-style/shoelace/dist/collection/components/switch/switch';
+import { Button, Switch } from '@shoelace-style/shoelace';
 
 export default {
   initialize() {

@@ -1860,10 +1860,10 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@shoelace-style/shoelace@2.0.0-beta.5":
-  version "2.0.0-beta.5"
-  resolved "https://registry.npmjs.org/@shoelace-style/shoelace/-/shoelace-2.0.0-beta.5.tgz#ccfbb1371775bed0bfb8c91e368059eed648d321"
-  integrity sha512-jliStgo5ZyvYxpQlidAi5cSqjNy84C/n8XoEJ7Ui+RRPtEeAuwdU9TQxzWS9Nh0FfNgL9xs3c+7PptEMDHEXdA==
+"@shoelace-style/shoelace@2.0.0-beta.7":
+  version "2.0.0-beta.7"
+  resolved "https://registry.npmjs.org/@shoelace-style/shoelace/-/shoelace-2.0.0-beta.7.tgz#3cb16a5de95d40f03725edf981ae34932397fe43"
+  integrity sha512-qwtu99RZbd1GFSwGZKmBaNRBE8FkuEjU8FapMsmua2BXGp/0eE8aPYk4yme+wxXGh3e9G6wllVycLodEN6lCMw==
   dependencies:
     "@popperjs/core" "^2.1.1"
     "@stencil/core" "^1.14.0"
